@@ -1,4 +1,4 @@
-/* 雪國東京 — 單頁 App（架構沿用越來越南河內版）
+/* 2027春季湯澤滑雪 — 單頁 App（架構沿用越來越南河內版）
    路由：#/  #/itinerary  #/itinerary/3  #/history  #/history/<id>  #/nearby  #/reading  #/guide  #/guide/<id>  #/place/<id>
    所有內容都在 data.json，這支程式只負責畫出來。 */
 (function () {
