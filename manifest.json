@@ -1,0 +1,14 @@
+{
+  "name": "雪國東京 湯澤滑雪＋東京",
+  "short_name": "雪國東京",
+  "start_url": "./index.html#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fcf9f2",
+  "theme_color": "#112433",
+  "lang": "zh-Hant",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
