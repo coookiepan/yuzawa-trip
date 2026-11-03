@@ -45,6 +45,7 @@ guide     { title, tagline, searchHint, quick[[sectionId, 標籤]], notes[], par
   parts[] { id, num "一", title, intro[], sections[] }
     sections[] { id, num "1", title, body }          body 是 Markdown，### 小標會變成段落快速導航
 ```
+行程以 Google 試算表「雪國東京行程表」為準（資料夾「2027雪國東京❄️🇯🇵」，https://docs.google.com/spreadsheets/d/1KYsAYDn4mTq7PyXBKuvt82PVNU9Ezkbg5Z09bjS0NkM/edit），格式複製自「越來越南行程表」。改行程先改試算表再同步進 `data.json`：一列對一個 `items[]`，欄位對應 時間→time、類型→type、行程／地點→title、內容重點→note、狀態→status；「宿」列與每天的空白選項列不進 App。
 行程目前是草案，機票（樂桃，比價中）與住宿都還沒訂，item 的 status 多為「未訂／選項」。原始查證資料與組裝腳本不在 repo 裡，之後直接改 data.json。
 
 ## 視覺規範（參考一張 fintech App 設計圖，色碼從圖上取樣）
